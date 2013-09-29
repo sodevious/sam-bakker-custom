@@ -1,17 +1,16 @@
 /*
-Theme Name: sam-bakker-custom
-Theme URI: http://sambakker.com/
-Author: Nicole Dominguez
-Author URI: http://nicoledominguez.com/
-Description: Custom theme for SamBakker.com
-Version: 1.0
-Text Domain: sam-bakker-custom
-Domain Path: /languages/
+	Theme Name: sam-bakker-custom
+	Theme URI: http://sambakker.com/
+	Author: Nicole Dominguez
+	Author URI: http://nicoledominguez.com/
+	Description: Custom theme for SamBakker.com
+	Version: 1.0
+	Text Domain: sam-bakker-custom
 
-Resetting and rebuilding styles have been helped along thanks to the fine work of
-Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
-along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-and Blueprint http://www.blueprintcss.org/
+	Resetting and rebuilding styles have been helped along thanks to the fine work of
+	Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+	along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+	and Blueprint http://www.blueprintcss.org/
 */
 
 
@@ -116,6 +115,10 @@ hr {
 /* Text elements */
 p {
 	margin-bottom: 1.5em;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	line-height: 25px;
+	color: #333;
 }
 ul, ol {
 	margin: 0 0 1.5em 3em;
@@ -456,28 +459,19 @@ a:visited {
 /* =Content
 ----------------------------------------------- */
 
-.sticky {
-}
-.hentry {
-	margin: 0 0 1.5em;
-}
+/* .hentry { margin: 0 0 1.5em; } */
+
 .byline,
-.updated {
-	display: none;
-}
+.updated { display: none; }
+
 .single .byline,
-.group-blog .byline {
-	display: inline;
-}
+.group-blog .byline { display: inline; }
+
 .page-content,
 .entry-content,
-.entry-summary {
-	margin: 1.5em 0 0;
-}
-.page-links {
-	clear: both;
-	margin: 0 0 1.5em;
-}
+.entry-summary { margin: 1em 0 0; }
+
+.page-links { clear: both; margin: 0 0 1.5em; }
 
 
 /* =Asides
@@ -529,10 +523,7 @@ a:visited {
 .site-main .gallery dd {
 	margin: 0;
 }
-.site-main .gallery-columns-4 .gallery-item {
-}
-.site-main .gallery-columns-4 .gallery-item img {
-}
+
 
 /* Make sure embeds and iframes fit their containers */
 embed,
@@ -563,29 +554,15 @@ object {
 /* =Comments
 ----------------------------------------------- */
 
-.comment-content a {
-	word-wrap: break-word;
-}
-.bypostauthor {
-}
+.comment-content a { word-wrap: break-word; }
 
 
 /* =Widgets
 ----------------------------------------------- */
 
-.widget {
-	margin: 0 0 1.5em;
-}
-
-/* Make sure select elements fit in widgets */
-.widget select {
-	max-width: 100%;
-}
-
-/* Search widget */
-.widget_search .search-submit {
-	display: none;
-}
+.widget { margin: 0 0 1.5em; }
+.widget select { max-width: 100%; }
+.widget_search .search-submit { display: none; }
 
 
 /* =Infinite Scroll
@@ -598,11 +575,51 @@ object {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-.infinity-end.neverending .site-footer {
-	display: block;
+.infinity-end.neverending .site-footer { display: block; }
+
+ol.comment-list{
+ margin: 10px 5px;
+ padding: 10px;
+}
+.comment-list .comment-body{
+ padding: 10px;
+ background: #EFEFEF;
+ border: solid thin #DEDEDE;
+ margin: 10px 0;
+ position: relative;
+}
+.comment-body a.comment-reply-link{
+ position: absolute;
+ top: 10px;
+ right: 10px;
+ color: #AEAEAE;
 }
 
+ol.comment-list li{ list-style: none; }
+
+ol.comment-list img.avatar{
+ padding: 5px;
+ background: #DEDEDE;
+ border: solid thin #CECECE;
+ float: left;
+ display: block;
+ margin: 15px;
+ width: 32px;
+ height: 32px;
+}
+
+ol.comment-list .comment-author { line-height: 25px; }
+.comment-body cite.fn { font-size: 14px; font-style: normal; }
+.commentmetadata a { margin: 0; font-size: 11px; color: #999; }
+
+.comment-body p { margin: 5px; }
+.comment-body .comment-author.vcard { margin: 0; }
+
+.comment-form input, 
+p.form-submit, 
+p.form-submit input, 
+#commentform { margin-bottom: 0px; }
+
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Montserrat:400,700);
-@import 'styles/base.css';
-@import 'skeleton.css';
-@import url("/styles/bakker.css");
+
+

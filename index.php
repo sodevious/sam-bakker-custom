@@ -14,52 +14,91 @@
 get_header(); ?>
 
 	<div class="hero">
-			<div class="six columns">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/sam-headshot.png" />
-			</div>
-
-			<div class="ten columns alpha">
-				<h2>Learn A Simple 3-Step Strategy For Increasing Your Sales Online!</h2>
-				<h3>Online marketing training programs to get exceptional results with our training every week!</h3>
-
-				<a href="#">Learn More</a>
-				<a href="#" class="cta">Get Started Today</a>
-			</div>
-
-			<div class="clearfix"></div>
+		<div class="six columns">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/sam-headshot.png" />
 		</div>
 
+		<div class="ten columns alpha">
+			<h2>Learn A Simple 3-Step Strategy For Increasing Your Sales Online!</h2>
+			<h3>Online marketing training programs to get exceptional results with our training every week!</h3>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+			<a href="#">Learn More</a>
+			<a href="#" class="cta">Get Started Today</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	
+	<div class="clearfix"></div>
 
-		<?php if ( have_posts() ) : ?>
+<a href="#">
+	<h3 class="testimonial_header">Testimonials</h3>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+	<div class="testimonial_banner">
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/austin_walsh.jpg" />
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/david_bullock.jpg" />
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/mark_anastasi.jpg" />
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/jason_westland.jpg" />
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/joel_peterson.jpg" />
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/bill_walsh.jpg" />
+	</div>
+</a>
 
-				<?php
-					/* Include the Post-Format-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
-					get_template_part( 'content', get_post_format() );
-				?>
+	<div class="clearfix"></div>
 
+	<div class="posts_index">
+
+		<h2>Recent Articles</h2>
+
+		<div class="post_tiles">
+			<?php while (have_posts()) : the_post(); ?>
+				<div class="tile">
+					<a href="<?php the_permalink() ?>">
+						<?php the_post_thumbnail('homepage-thumb'); ?>
+						<div class="overlay_tile">
+							<?php the_title() ?>
+						</div>
+					</a>
+				</div>
 			<?php endwhile; ?>
+		</div>
 
-			<?php sam_bakker_custom_content_nav( 'nav-below' ); ?>
+	<h2>Featured Articles</h2>
+	<?php rewind_posts(); ?>
 
-		<?php else : ?>
+<?php $my_query = new WP_Query('category_name=featured&posts_per_page=5'); ?>
 
-			<?php get_template_part( 'no-results', 'index' ); ?>
+<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+  <!-- Do special_cat stuff... -->
+				<div class="tile">
+					<a href="<?php the_permalink() ?>">
+						<?php the_post_thumbnail('homepage-thumb'); ?>
+						<div class="overlay_tile">
+							<?php the_title() ?>
+						</div>
+					</a>
+				</div>
+<?php endwhile; ?>
 
-		<?php endif; ?>
 
-		</main>
+
+
 	</div>
 
 
+	<div class="clearfix"></div>
 
-<?php get_sidebar(); ?>
+	<div class="ebook">
+		<div class="eleven columns alpha">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/ebook.png" />
+			<h2>Get Your Business Online!</h2>
+			<p><span>Case Studies</span> | <span>A Simple Strategy</span> | <span>Our Best Tactics</span></p>
+		</div>
+
+		<div class="five columns omega alpha">
+			Form input
+		</div>
+
+		<div class="clearfix"></div>
+	</div>
+
 <?php get_footer(); ?>

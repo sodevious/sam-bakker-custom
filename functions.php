@@ -79,6 +79,22 @@ function sam_bakker_custom_widgets_init() {
 }
 add_action( 'widgets_init', 'sam_bakker_custom_widgets_init' );
 
+
+/**
+ * Register widgetized area and update sidebar with default widgets
+ */
+function sam_bakker_footer_widgets_init() {
+	register_sidebar( array(
+		'name'          => __( 'Footer', 'sam-bakker-custom' ),
+		'id'            => 'footer-1',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+}
+add_action( 'widgets_init', 'sam_bakker_footer_widgets_init' );
+
 /**
  * Enqueue scripts and styles
  */
@@ -123,3 +139,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+if ( function_exists( 'add_theme_support' ) ) {
+	add_theme_support( 'post-thumbnails' );
+    set_post_thumbnail_size( 180, 180, true ); // default Post Thumbnail dimensions  
+    add_image_size( 'homepage-thumb', 180, 180, true ); // 220 pixels wide by 180 pixels tall, soft proportional crop mode
+ 
+}
+

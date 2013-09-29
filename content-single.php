@@ -7,23 +7,14 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
-
-		<div class="entry-meta">
-			<?php sam_bakker_custom_posted_on(); ?>
-		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'sam-bakker-custom' ),
-				'after'  => '</div>',
-			) );
-		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
+
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$category_list = get_the_category_list( __( ', ', 'sam-bakker-custom' ) );
@@ -56,6 +47,9 @@
 				get_permalink()
 			);
 		?>
+
+					<?php sam_bakker_custom_posted_on(); ?>
+
 
 		<?php edit_post_link( __( 'Edit', 'sam-bakker-custom' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
