@@ -22,8 +22,8 @@ get_header(); ?>
 			<h2>Learn A Simple 3-Step Strategy For Increasing Your Sales Online!</h2>
 			<h3>Online marketing training programs to get exceptional results with our training every week!</h3>
 
-			<a href="#">Learn More</a>
-			<a href="#" class="cta">Get Started Today</a>
+			<a href="http://www.sambakker.com/learn-more/">Learn More</a>
+			<a href="http://www.sambakker.com/get-started/" class="cta">Get Started Today</a>
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -89,16 +89,19 @@ get_header(); ?>
 
 	<div class="ebook">
 		<div class="eleven columns alpha">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/ebook.png" />
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/ebook.png" class="ebookPhoto" />
 			<h2>Get Your Business Online!</h2>
 			<p><span>Case Studies</span> | <span>A Simple Strategy</span> | <span>Our Best Tactics</span></p>
 		</div>
 
 		<div class="five columns omega alpha">
-			Form input
-		</div>
 
-		<div class="clearfix"></div>
+<?php echo do_shortcode('[contact-form-7 id="495" title="Newsletter"]') ?>
+
+		</div>
+		
+		<div style="clear: both; display: block;">&nbsp;</div>
+
 	</div>
 
 <?php get_footer(); ?>
