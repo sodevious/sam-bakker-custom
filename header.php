@@ -16,6 +16,8 @@
 
 <?php wp_head(); ?>
 
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/responsive-nav.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/base.css" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/skeleton.css" type="text/css" media="all" />
@@ -33,10 +35,10 @@
 		</div>
 
 		<div class="eight columns social">
-			<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/facebook_32.png" /></a>
-			<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/twitter_32.png" /></a>
-			<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/youtube_32.png" /></a>
-			<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/rss_32.png" /></a>
+			<a href="https://www.facebook.com/sammybakker"><img src="<?php echo get_template_directory_uri(); ?>/assets/facebook_32.png" /></a>
+			<a href="https://twitter.com/sambakker"><img src="<?php echo get_template_directory_uri(); ?>/assets/twitter_32.png" /></a>
+			<a href="http://www.youtube.com/therealsambakker"><img src="<?php echo get_template_directory_uri(); ?>/assets/youtube_32.png" /></a>
+			<a href="http://www.sambakker.com/feed/"><img src="<?php echo get_template_directory_uri(); ?>/assets/rss_32.png" /></a>
 			<br />
 			<?php get_search_form(); ?>
 		</div>
