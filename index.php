@@ -21,7 +21,7 @@ get_header(); ?>
 	</div>
 	
 
-	<div class="index-content twelve columns alpha">
+	<div class="index-content eleven columns alpha">
 		
 		<p>It’s my belief that millions of business owners never realize their businesses full potential, further themselves, grow and use the power that online marketing has to reach their ultimate vision for their company. It’s my intention to show business owners all around the world that they can not only automate their sales by taking their business online, but extend their reach and connection with customers.</p>
 
@@ -47,80 +47,54 @@ get_header(); ?>
 	</div>
 
 
-	<div class="index-sidebar four columns omega" role="complementary">
+	<div class="index-sidebar five columns omega" role="complementary">
 
 
 	<div class="testimonial_container">
 		<h2>What The Experts Are Saying</h2>
-			<div class="tile">
-				<a href="/testimonials">
-					<div class="overlay_tile_top">
-						"Keep up with the newest trends"
-					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/jason_westland.jpg" />
-					<div class="overlay_tile_bottom">
-						<b>Jason Westland</b> - CEO & Founder of ProjectManager.com
-					</div>
-				</a>
+			
+	<div class="single_testimonial">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/austin_walsh.jpg" />
+			<p>"I have witnessed Sam make over $20,000 in less than 48 hours. Sam knows how to make a substantial amount of money fast for your business 
+			and he can show you how to make a lot of money applying his online marketing strategy to your business"</p>
+			<span>&mdash; Austin Walsh - Best Selling Author, Speaker & Online Marketer</span>
 			</div>
 
-			<div class="tile">
-				<a href="/testimonials">
-					<div class="overlay_tile_top">
-						"Make more sales for your business online"
-					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/bill_walsh.jpg" />
-					<div class="overlay_tile_bottom">
-						<b>Bill Walsh</b> - America's Business Expert
-					</div>
-				</a>
-			</div>
-			<div class="tile">
-				<a href="/testimonials">
-					<div class="overlay_tile_top">
-						"Build a massive list"
-					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/david_bullock.jpg" />
-					<div class="overlay_tile_bottom">
-						<b>David Bullock</b> - CEO and Co-Founder of CEO Mastery
-					</div>
-				</a>
+
+			<div class="single_testimonial">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/jason_westland.jpg" />
+			<p>"Sam has over the years helped us at ProjectManager.com to generate more traffic and increase our presence online. If you want to 
+			keep up with the newest trends, Sam Bakker is the 'go to' guy."</p>
+			<span>&mdash; Jason Westland - CEO & Founder of ProjectManager.com</span>
 			</div>
 
-			<div class="tile">
-				<a href="/testimonials">
-					<div class="overlay_tile_top">
-						"I recommend this to anyone"
-					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/joel_peterson.jpg" />
-					<div class="overlay_tile_bottom">
-						<b>Joel Peterson</b> - Author, Speaker & Online Marketer
-					</div>
-				</a>
-			</div>
-			<div class="tile">
-				<a href="/testimonials">
-					<div class="overlay_tile_top">
-						"$20,000 in less than 48 hours"
-					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/austin_walsh.jpg" />
-					<div class="overlay_tile_bottom">
-						<b>Austin Walsh</b> - Author, Speaker & Online Marketer
-					</div>
-				</a>
+			<div class="single_testimonial">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/joel_peterson.jpg" />
+			<p>"Sam will show you step-by-step how to make money online. I recommend his strategy to anyone who wants to make a substantial change in their 
+			life and make even more money in their business."</p>
+			<span>&mdash; Joel Peterson - Author, Speaker & Online Marketer</span>
 			</div>
 
-			<div class="tile">
-				<a href="/testimonials">
-					<div class="overlay_tile_top">
-						"You can't go wrong investing with Sam"
-					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/mark_anastasi.jpg" />
-					<div class="overlay_tile_bottom">
-						<b>Mark Anastasi</b> - NYTimes Best Seller & Author of The Laptop Millionaire
-					</div>
-				</a>
+			<div class="single_testimonial">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/mark_anastasi.jpg" />
+			<p>"I have known Sam for many years and witnessed him make thousands of dollars online. If you want to learn exactly how to make money online, you can't go wrong investing with Sam and his strategies"</p>
+			<span>&mdash; Mark Anastasi - New York Times Best Seller And Author of The Laptop Millionaire</span>
 			</div>
+
+			<div class="single_testimonial">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/david_bullock.jpg" />
+			<p>"Whatever you have, whatever you are trying to promote - Sam is one who can show you how to build a massive list and put together information and tools to sell online" </p>
+			<span>&mdash; David Bullock - CEO and Co-Founder of CEO Mastery</span>
+			</div>
+
+			<div class="single_testimonial">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/bill_walsh.jpg" />
+			<p>"If you want to make more sales for your business online, Sam Bakker is the guy to talk to. I have seen first hand the sales that his online marketing strategy can produce. Work with Sam." </p>
+			<span>&mdash; Bill Walsh - America's Business Expert</span>
+			</div>
+
+
+			
 
 
 
