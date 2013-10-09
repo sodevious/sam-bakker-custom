@@ -13,7 +13,7 @@
 		<?php the_content(); ?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-meta">
+	<div class="entry-meta">
 
 		<?php
 			/* translators: used between list items, there is a space after the comma */
@@ -52,5 +52,5 @@
 
 
 		<?php edit_post_link( __( 'Edit', 'sam-bakker-custom' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-meta -->
+	</div><!-- .entry-meta -->
 </article><!-- #post-## -->

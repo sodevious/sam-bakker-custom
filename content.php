@@ -28,16 +28,13 @@
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
-	<footer class="entry-meta">
+	<div class="entry-meta">
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'sam-bakker-custom' ) );
 				if ( $categories_list && sam_bakker_custom_categorized_blog() ) :
 			?><?php sam_bakker_custom_posted_on(); ?> | 
-			<span class="cat-links">
-				<?php printf( __( 'Posted in %1$s', 'sam-bakker-custom' ), $categories_list ); ?>
-			</span>
 			<?php endif; // End if categories ?>
 
 			| <?php
@@ -56,5 +53,5 @@
 		<?php endif; ?>
 
 		<?php edit_post_link( __( 'Edit', 'sam-bakker-custom' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-meta -->
+	</div><!-- .entry-meta -->
 </article><!-- #post-## -->

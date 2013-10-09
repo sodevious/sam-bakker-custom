@@ -6,16 +6,16 @@
 get_header(); ?>
 
 	<div class="hero">
-		<div class="six columns">
+		<div class="five columns">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/sam-headshot.png" />
 		</div>
 
-		<div class="ten columns alpha">
-			<h2>Learn A Simple 3-Step Strategy For Increasing Your Sales Online!</h2>
-			<h3>Online marketing training programs to get exceptional results with our training every week!</h3>
+		<div class="eleven columns alpha">
+			<h2>Register Below To Find Out How Sam Increased His Sales Online By 300% Last Year And How You Can Do The Same Starting Today!</h2>
 
 			<a href="http://www.sambakker.com/learn-more/">Learn More</a>
 			<a href="http://www.sambakker.com/get-started/" class="cta">Get Started Today</a>
+			<h3>As Seen On: PRWeb.com, Google News, Ask.com, YouTube & Blog Talk Radio</h3>
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -54,55 +54,54 @@ get_header(); ?>
 		<h2>What The Experts Are Saying</h2>
 			
 	<div class="single_testimonial">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/austin_walsh.jpg" />
-			<p>"I have witnessed Sam make over $20,000 in less than 48 hours. Sam knows how to make a substantial amount of money fast for your business 
-			and he can show you how to make a lot of money applying his online marketing strategy to your business"</p>
-			<span>&mdash; Austin Walsh - Best Selling Author, Speaker & Online Marketer</span>
-			</div>
+		<div class="single_testimonial">
+		<h4>"Keep up with the newest trends"</h4>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/jason_westland.jpg" />
+		<p>"Sam has over the years helped us at ProjectManager.com to generate more traffic and increase our presence online. If you want to 
+		keep up with the newest trends, Sam Bakker is the 'go to' guy."</p>
+		<span>&mdash; Jason Westland - CEO & Founder of ProjectManager.com</span>
+		</div>
 
+		<div class="single_testimonial">
+		<h4>"Make more sales for your business online"</h4>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/bill_walsh.jpg" />
+		<p>"If you want to make more sales for your business online, Sam Bakker is the guy to talk to. I have seen first hand the sales that his online marketing strategy can produce. Work with Sam." </p>
+		<span>&mdash; Bill Walsh - America's Business Expert</span>
+		</div>
 
-			<div class="single_testimonial">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/jason_westland.jpg" />
-			<p>"Sam has over the years helped us at ProjectManager.com to generate more traffic and increase our presence online. If you want to 
-			keep up with the newest trends, Sam Bakker is the 'go to' guy."</p>
-			<span>&mdash; Jason Westland - CEO & Founder of ProjectManager.com</span>
-			</div>
+		<div class="single_testimonial">
+		<h4>"Build a massive list"</h4>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/david_bullock.jpg" />
+		<p>"Whatever you have, whatever you are trying to promote - Sam is one who can show you how to build a massive list and put together information and tools to sell online" </p>
+		<span>&mdash; David Bullock - CEO and Co-Founder of CEO Mastery</span>
+		</div>
 
-			<div class="single_testimonial">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/joel_peterson.jpg" />
-			<p>"Sam will show you step-by-step how to make money online. I recommend his strategy to anyone who wants to make a substantial change in their 
-			life and make even more money in their business."</p>
-			<span>&mdash; Joel Peterson - Author, Speaker & Online Marketer</span>
-			</div>
+		<div class="single_testimonial">
+		<h4>"I recommend this to anyone"</h4>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/joel_peterson.jpg" />
+		<p>"Sam will show you step-by-step how to make money online. I recommend his strategy to anyone who wants to make a substantial change in their 
+		life and make even more money in their business."</p>
+		<span>&mdash; Joel Peterson - Author, Speaker & Online Marketer</span>
+		</div>
+		
+		<div class="single_testimonial">
+		<h4>"$20,000 in less than 48 hours"</h4>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/austin_walsh.jpg" />
+		<p>"I have witnessed Sam make over $20,000 in less than 48 hours. Sam knows how to make a substantial amount of money fast for your business 
+		and he can show you how to make a lot of money applying his online marketing strategy to your business"</p>
+		<span>&mdash; Austin Walsh - Best Selling Author, Speaker & Online Marketer</span>
+		</div>
 
-			<div class="single_testimonial">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/mark_anastasi.jpg" />
-			<p>"I have known Sam for many years and witnessed him make thousands of dollars online. If you want to learn exactly how to make money online, you can't go wrong investing with Sam and his strategies"</p>
-			<span>&mdash; Mark Anastasi - New York Times Best Seller And Author of The Laptop Millionaire</span>
-			</div>
-
-			<div class="single_testimonial">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/david_bullock.jpg" />
-			<p>"Whatever you have, whatever you are trying to promote - Sam is one who can show you how to build a massive list and put together information and tools to sell online" </p>
-			<span>&mdash; David Bullock - CEO and Co-Founder of CEO Mastery</span>
-			</div>
-
-			<div class="single_testimonial">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/bill_walsh.jpg" />
-			<p>"If you want to make more sales for your business online, Sam Bakker is the guy to talk to. I have seen first hand the sales that his online marketing strategy can produce. Work with Sam." </p>
-			<span>&mdash; Bill Walsh - America's Business Expert</span>
-			</div>
-
-
-			
-
-
-
+		<div class="single_testimonial">
+		<h4>"You can't go wrong investing with Sam"</h4>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/mark_anastasi.jpg" />
+		<p>"I have known Sam for many years and witnessed him make thousands of dollars online. If you want to learn exactly how to make money online, you can't go wrong investing with Sam and his strategies"</p>
+		<span>&mdash; Mark Anastasi - NYTimes Best Seller And Author of The Laptop Millionaire</span><br />
+		</div>
 </div>
 
 </div>
-
-
+</div>
 	
 	<div class="clearfix"></div>
 

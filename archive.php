@@ -9,7 +9,10 @@
 
 get_header(); ?>
 
+	<div class="topics"><?php wp_list_categories('title_li=Topics:'); ?></div>
+
 	<section id="primary" class="content-area eleven columns">
+
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>

@@ -35,6 +35,7 @@
 		</div>
 
 		<div class="eight columns social">
+			<a href="http://www.linkedin.com/in/sambakker"><img src="<?php echo get_template_directory_uri(); ?>/assets/linkedin_32.png" /></a>
 			<a href="https://www.facebook.com/sammybakker"><img src="<?php echo get_template_directory_uri(); ?>/assets/facebook_32.png" /></a>
 			<a href="https://twitter.com/sambakker"><img src="<?php echo get_template_directory_uri(); ?>/assets/twitter_32.png" /></a>
 			<a href="http://www.youtube.com/therealsambakker"><img src="<?php echo get_template_directory_uri(); ?>/assets/youtube_32.png" /></a>
